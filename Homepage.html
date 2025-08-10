@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ohwowhiajiyeren University</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #ffffff;
+      color: #003300;
+    }
+
+    header {
+      background-color: green;
+      display: flex;
+      align-items: center;
+      padding: 15px 30px;
+    }
+
+    header img {
+      height: 70px;
+      margin-right: 15px;
+    }
+
+    header h1 {
+      font-size: 50px;
+      color: yellow;
+    }
+
+    nav {
+      background-color: #009900;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 12px 20px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #e6e600;
+      color: #003300;
+      border-radius: 5px;
+    }
+
+    .hero {
+      background-image: url('img.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      text-align: center;
+      padding: 100px 20px;
+      color: #ffffff;
+      position: relative;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 128, 0, 0.6);
+      z-index: 0;
+    }
+
+    .hero h2,
+    .hero p,
+    .buttons {
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero h2 {
+      font-size: 36px;
+      margin-bottom: 15px;
+      color: yellow;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 30px;
+      color: white;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .button {
+      background-color: #f3f300;
+      color: #003300;
+      padding: 12px 20px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      border: 2px solid green;
+      transition: all 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #009900;
+      color: yellow;
+    }
+
+    footer {
+      background-color: #006600;
+      color: yellow;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      .hero h2 {
+        font-size: 28px;
+      }
+
+      .hero p {
+        font-size: 16px;
+      }
+
+      header h1 {
+        font-size: 22px;
+      }
+
+      nav a {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <img src="img.jpg" alt="University Logo">
+    <h1>Ohwowhiajiyeren University</h1>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="faculty.html">Faculty of Computing</a>
+    <a href="facultyarts.html">Faculty of Arts</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="pay.html">Pay</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Welcome to Ohwowhiajiyeren University</h2>
+    <p>Empowering Future Leaders with Innovation and Integrity</p>
+    <div class="buttons">
+      <a href="faculty.html" class="button">Faculty of Computing</a>
+      <a href="facultyarts.html" class="button">Faculty of Arts</a>
+      <a href="about.html" class="button">About Us</a>
+      <a href="contact.html" class="button">Contact Us</a>
+      <a href="pay.html" class="button">Make Payment</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Ohwowhiajiyeren University. All rights reserved.
+  </footer>
+
+</body>
+</html>

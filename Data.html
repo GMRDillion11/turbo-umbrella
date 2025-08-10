@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Data Science - Faculty of Computing</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #f3fff6, #e1ffe9);
+      color: #003300;
+      padding-bottom: 80px;
+    }
+
+    header {
+      background-color: #006600;
+      color: #fff;
+      text-align: center;
+      padding: 30px 15px;
+      font-size: 26px;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+      border-bottom: 4px solid #00cc44;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 40px auto;
+      background: #ffffff;
+      padding: 35px;
+      border-radius: 20px;
+      box-shadow: 0 10px 20px rgba(0, 100, 0, 0.1);
+    }
+
+    h2 {
+      text-align: center;
+      color: #028d03;
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .fees {
+      text-align: center;
+      font-size: 18px;
+      margin-top: 10px;
+    }
+
+    .fees p {
+      margin: 12px 0;
+    }
+
+    .pay-buttons {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 30px;
+    }
+
+    .pay-buttons button {
+      background-color: #019b01;
+      border: none;
+      padding: 14px 22px;
+      border-radius: 10px;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .pay-buttons button:hover {
+      background-color: #007300;
+    }
+
+    .account-box {
+      margin-top: 35px;
+      padding: 20px;
+      background: #eafff0;
+      border-left: 6px solid #00b300;
+      border-radius: 12px;
+      font-size: 17px;
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background: #004d00;
+      color: white;
+      text-align: center;
+      padding: 12px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>Data Science - Faculty of Computing</header>
+
+  <div class="container">
+    <h2>School Fees</h2>
+
+    <div class="fees">
+      <p><strong>Indigene:</strong> ₦174,000</p>
+      <p><strong>Non-Indigene:</strong> ₦230,000</p>
+    </div>
+
+    <div class="pay-buttons">
+      <button onclick="alert('Pay ₦174,000 to the account below')">Pay as Indigene</button>
+      <button onclick="alert('Pay ₦230,000 to the account below')">Pay as Non-Indigene</button>
+    </div>
+
+    <div class="account-box">
+      <strong>Account Number:</strong> 7019184147<br>
+      <strong>Bank:</strong> Opay<br>
+      <strong>Account Name:</strong> Ohwowhiajiyeren Samuel Okeoghene
+    </div>
+  </div>
+
+  <footer>&copy; 2025 Ohwowhiajiyeren University</footer>
+
+</body>
+</html>

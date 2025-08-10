@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Information Technology - Faculty of Computing</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Verdana', sans-serif;
+      background: linear-gradient(to bottom right, #e6fff2, #ccffe6);
+      color: #003300;
+      padding-bottom: 90px;
+    }
+
+    header {
+      background-color: #00994d;
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px;
+      font-size: 26px;
+      font-weight: bold;
+      border-bottom: 4px solid #00e673;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      background-color: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 6px 25px rgba(0, 128, 64, 0.1);
+      padding: 35px 25px;
+    }
+
+    h2 {
+      color: #007a3d;
+      font-size: 28px;
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    .fee-section {
+      text-align: center;
+      font-size: 18px;
+    }
+
+    .fee-section p {
+      margin: 15px 0;
+    }
+
+    .pay-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin: 25px 0;
+    }
+
+    .pay-buttons button {
+      background-color: #00b359;
+      color: white;
+      padding: 14px 25px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .pay-buttons button:hover {
+      background-color: #008040;
+    }
+
+    .account-info {
+      margin-top: 30px;
+      padding: 20px;
+      background-color: #f0fff5;
+      border-left: 6px solid #00cc66;
+      border-radius: 10px;
+      font-size: 16px;
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background: #004d00;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>Information Technology - Faculty of Computing</header>
+
+  <main>
+    <h2>School Fees</h2>
+
+    <div class="fee-section">
+      <p><strong>Indigene Fee:</strong> ₦174,000</p>
+      <p><strong>Non-Indigene Fee:</strong> ₦230,000</p>
+    </div>
+
+    <div class="pay-buttons">
+      <button onclick="alert('Pay ₦174,000 (Indigene) to the account below')">Indigene</button>
+      <button onclick="alert('Pay ₦230,000 (Non-Indigene) to the account below')">Non-Indigene</button>
+    </div>
+
+    <div class="account-info">
+      <strong>Account Number:</strong> 7019184147<br>
+      <strong>Bank:</strong> Opay<br>
+      <strong>Account Name:</strong> Ohwowhiajiyeren Samuel Okeoghene
+    </div>
+  </main>
+
+  <footer>&copy; 2025 Ohwowhiajiyeren University - Information Technology Dept</footer>
+
+</body>
+</html>

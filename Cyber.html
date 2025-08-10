@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cyber Security - Faculty of Computing</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #e8fff0, #f2fff7);
+      color: #002b00;
+      padding-bottom: 100px;
+    }
+    header {
+      background-color: #014d01;
+      color: #fff;
+      text-align: center;
+      padding: 25px 10px;
+      font-size: 26px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+    .content {
+      max-width: 700px;
+      margin: 50px auto;
+      background: #ffffff;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 0 15px rgba(0, 80, 0, 0.1);
+    }
+    h2 {
+      text-align: center;
+      color: #026c02;
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+    .fees {
+      text-align: center;
+      margin: 20px 0;
+      font-size: 18px;
+    }
+    .fees p {
+      margin: 10px 0;
+    }
+    .pay-buttons {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 30px;
+    }
+    .pay-buttons button {
+      background-color: #019901;
+      color: white;
+      border: none;
+      padding: 15px 25px;
+      font-size: 16px;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .pay-buttons button:hover {
+      background-color: #006600;
+    }
+    .account-info {
+      background-color: #edfff0;
+      padding: 20px;
+      margin-top: 40px;
+      border-radius: 12px;
+      text-align: center;
+      font-size: 17px;
+      line-height: 1.6;
+    }
+    footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: #003300;
+      color: white;
+      text-align: center;
+      padding: 12px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>Cyber Security - Faculty of Computing</header>
+
+  <div class="content">
+    <h2>School Fees</h2>
+
+    <div class="fees">
+      <p><strong>Indigene:</strong> ₦174,000</p>
+      <p><strong>Non-Indigene:</strong> ₦230,500</p>
+    </div>
+
+    <div class="pay-buttons">
+      <button onclick="alert('Pay ₦174,000 to the account below')">Pay as Indigene</button>
+      <button onclick="alert('Pay ₦230,500 to the account below')">Pay as Non-Indigene</button>
+    </div>
+
+    <div class="account-info">
+      <strong>Account Number:</strong> 7019184147<br />
+      <strong>Bank:</strong> Opay<br />
+      <strong>Account Name:</strong> Ohwowhiajiyeren Samuel Okeoghene
+    </div>
+  </div>
+
+  <footer>&copy; 2025 Ohwowhiajiyeren University</footer>
+</body>
+</html>

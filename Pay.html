@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Payment - Ohwowhoajiyeren University</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0fff4;
+      margin: 0;
+      padding: 0;
+      color: #003300;
+    }
+
+    header {
+      background-color: #006400;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    header img {
+      height: 70px;
+      margin-bottom: 5px;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: 40px auto;
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 12px rgba(0, 100, 0, 0.2);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      color: #006400;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 12px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    .pay-buttons {
+      margin-top: 25px;
+    }
+
+    .pay-buttons a button {
+      width: 100%;
+      padding: 14px;
+      background-color: #006400;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-bottom: 15px;
+    }
+
+    .pay-buttons a button:hover {
+      background-color: #004d00;
+    }
+
+    .note {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #444;
+      background: #e6ffe6;
+      padding: 10px;
+      border-left: 4px solid #006400;
+    }
+
+    footer {
+      text-align: center;
+      background: #006400;
+      color: white;
+      padding: 12px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="img.jpg" alt="Ohwowhiajiyeren University Logo">
+    <h1>Ohwowhiajiyeren University</h1>
+    <p>Secure Student Payment Portal</p>
+  </header>
+
+  <div class="container">
+    <h2>Pay School Fees</h2>
+    
+    <form>
+      <label for="fullname">Full Name</label>
+      <input type="text" id="fullname" placeholder="Enter your full name" required>
+
+      <label for="matric">Matric Number</label>
+      <input type="text" id="matric" placeholder="Enter your matric number" required>
+
+      <label for="level">Level</label>
+      <select id="level" required>
+        <option value="">-- Choose Level --</option>
+        <option>100 Level</option>
+        <option>200 Level</option>
+        <option>300 Level</option>
+        <option>400 Level</option>
+      </select>
+
+      <label for="bank">Select Payment Bank</label>
+      <select id="bank" required>
+        <option value="">-- Choose Bank --</option>
+        <option>Opay</option>
+        <option>Palmpay</option>
+        <option>Moniepoint</option>
+        <option>Access Bank</option>
+        <option>UBA</option>
+        <option>Zenith Bank</option>
+        <option>GTBank</option>
+        <option>First Bank</option>
+        <option>Fidelity Bank</option>
+        <option>Union Bank</option>
+        <option>Ecobank</option>
+        <option>Wema Bank</option>
+      </select>
+
+      <label for="account-number">Your Account Number</label>
+      <input type="text" id="account-number" placeholder="Enter your account number" required>
+
+      <label for="pin">Your PIN</label>
+      <input type="password" id="pin" placeholder="Enter your PIN" required>
+
+      <div class="pay-buttons">
+        <a href="https://www.opayweb.com" target="_blank">
+          <button type="button">Pay as Indigene (₦170,000)</button>
+        </a>
+        <a href="https://www.opayweb.com" target="_blank">
+          <button type="button">Pay as Non-Indigene (₦230,000)</button>
+        </a>
+      </div>
+
+      <div class="note">
+        <strong>Note:</strong> All payments should be made to:<br>
+        <strong>Account Number:</strong> 7019184147<br>
+        <strong>Bank:</strong> Opay / Palmpay / Moniepoint<br>
+        <strong>Account Name:</strong> Ohwowhiajiyeren Samuel Okeoghene
+      </div>
+    </form>
+  </div>
+
+  <footer>
+    &copy; 2025 Ohwowhiajiyeren University. All Rights Reserved.
+  </footer>
+
+</body>
+</html>

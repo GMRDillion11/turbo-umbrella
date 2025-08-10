@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - Dennis Osadebay University</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: url('img.jpg') no-repeat center top fixed; /* Your background image */
+      background-size: cover;
+      color: #003300;
+    }
+
+    header {
+      background-color: rgba(0, 100, 0, 0.85);
+      color: white;
+      padding: 20px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    header img {
+      height: 90px; /* Logo size */
+    }
+
+    nav {
+      background-color: #00aa00;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      padding: 30px 20px;
+      max-width: 700px;
+      margin: 40px auto;
+      background-color: rgba(255, 255, 255, 0.85);
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 100, 0, 0.3);
+    }
+
+    h2 {
+      color: #006400;
+      margin-top: 0;
+    }
+
+    .contact-info {
+      margin-bottom: 25px;
+    }
+
+    form {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 100, 0, 0.2);
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #006400;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+
+    input[type="submit"] {
+      margin-top: 20px;
+      background-color: #006400;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 5px;
+      width: 100%;
+      font-size: 16px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #008000;
+    }
+
+    /* Three images section */
+    .image-gallery {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 30px;
+    }
+
+    .image-gallery img {
+      width: 200px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    footer {
+      background-color: rgba(0, 100, 0, 0.9);
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="img.jpg" alt="School Logo">
+    <div>
+      <h1>Dennis Osadebay University</h1>
+      <p>Contact Us</p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="Homepage.html">Homepage</a>
+    <a href="faculty.html">Faculty Of Computing</a>
+    <a href="facultyarts.html">Faculty Of Arts</a>
+    <a href="About.html">About</a>
+    <a href="Pay.html">Pay</a>
+  </nav>
+
+  <div class="container">
+    <div class="contact-info">
+      <h2>Get in Touch</h2>
+      <p><strong>Email:</strong> freshokeoghene@gmail.com</p>
+      <p><strong>Phone:</strong> 07019184147</p>
+    </div>
+
+    <h2>Student Contact Form</h2>
+    <form action="https://formspree.io/f/myzpwwww" method="POST">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+      <input type="submit" value="Submit">
+    </form>
+
+    <!-- Three images section -->
+    <div class="image-gallery">
+      <img src="Pic1.png" alt="Campus Image 1">
+      <img src="Pic2.jpg" alt="Campus Image 2">
+      <img src="pic.jpg" alt="Campus Image 3">
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Dennis Osadebay University. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
